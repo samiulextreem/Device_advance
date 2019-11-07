@@ -9,7 +9,7 @@
 
 #endif
 
-U8G2_ST7565_ZOLEN_128X64_F_4W_SW_SPI LCD(U8G2_MIRROR, D0, D1, D2, D3, D4);
+U8G2_ST7565_ZOLEN_128X64_F_4W_SW_SPI LCD(U8G2_MIRROR, D0, D1, D2, D3, D4); //scl,si,cs,rs,rse
 void LCD_print(String x);
 void LCD_clear();
 
