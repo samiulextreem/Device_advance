@@ -1,0 +1,3 @@
+The Reynolds number is the ratio of inertial forces to viscous forces within a fluid which is subjected 
+to relative internal movement due to different fluid velocities,which is known as a boundary layer in the
+ case of a bounding surface such as the interior of a pipe.

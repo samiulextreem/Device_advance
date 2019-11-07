@@ -1,0 +1,7 @@
+The Tesla turbine is a bladeless centripetal flow turbine patented by Nikola Tesla in 1913.
+ It is referred to as a bladeless turbine.Tesla turbine is also known as the boundary-layer
+turbine, cohesion-type turbine, and Prandtl-layer turbine (after Ludwig Prandtl) because
+it uses the boundary-layer effect and not a fluid impinging upon the blades as in a conventional turbine.
+The guiding idea for developing Tesla turbine is the fact that in order to attain the highest efficiency,
+ the changes in the velocity and direction of movement of fluid should be as gradual as possible.
+  Therefore, the propelling fluid of Tesla turbine moves in natural paths or stream lines of least resistance
