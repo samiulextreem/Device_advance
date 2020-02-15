@@ -1,3 +1,9 @@
+#define FREQUENCY    80                  // valid 80, 160
+
+extern "C" {
+#include "user_interface.h"
+}
+
 #include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
@@ -124,6 +130,9 @@ void setup(){
 	if(digitalRead(BOOTPIN) == HIGH){
 		LCD_print("Entering operational mode..");
 		delay(50);
+		WiFi.forceSleepBegin();                  // turn off ESP8266 RF
+		delay(5);                                // give RF section time to shutdown
+		system_update_cpu_freq(FREQUENCY);
 	}
 }
 
